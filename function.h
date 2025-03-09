@@ -3,7 +3,10 @@
 #include <iostream>
 using namespace std;
 
-void displayCal(string arr[5][4])
+void displayCal(char arr[5][4]);
+void exeOption(char op);
+
+void displayCal(char arr[5][4])
 {
     //Displays calculator
     //Lines 17-19 is the calulator screen
@@ -22,6 +25,15 @@ void displayCal(string arr[5][4])
         cout << endl;
     }
     cout << "+------------+" << endl;
+}
+
+void exeOption(char op)
+{
+    //Check if op is a number
+    if (isdigit(op))
+    {
+        cout << op << endl; //To Delete Later
+    }
 }
 
 #endif
