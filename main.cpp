@@ -13,6 +13,9 @@ int main()
         {"-", "0", ".", "="}
     };
 
+    //Clears terminal on execution
+    system("cls");
+
     //Main loop
     do
     {
